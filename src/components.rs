@@ -10,6 +10,7 @@ use crate::{action::Action, config::Config, tui::Event};
 
 pub mod fps;
 pub mod home;
+pub mod widgets;
 
 /// `Component` is a trait that represents a visual and interactive element of the user interface.
 ///
@@ -51,7 +52,7 @@ pub trait Component {
     /// # Returns
     ///
     /// * `Result<()>` - An Ok result or an error.
-    fn init(&mut self, area: Size) -> Result<()> {
+    fn init(&mut self, area: Rect) -> Result<()> {
         let _ = area; // to appease clippy
         Ok(())
     }

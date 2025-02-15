@@ -37,7 +37,7 @@ impl App {
         Ok(Self {
             tick_rate,
             frame_rate,
-            components: vec![Box::new(Home::new()), Box::new(FpsCounter::default())],
+            components: vec![Box::new(Home::new()?), Box::new(FpsCounter::default())],
             should_quit: false,
             should_suspend: false,
             config: Config::new()?,
@@ -61,9 +61,9 @@ impl App {
         for component in self.components.iter_mut() {
             component.register_config_handler(self.config.clone())?;
         }
-        for component in self.components.iter_mut() {
-            component.init(tui.size()?)?;
-        }
+        // for component in self.components.iter_mut() {
+        //     component.init(tui.size()?)?;
+        // }
 
         let action_tx = self.action_tx.clone();
         loop {
