@@ -4,11 +4,11 @@
 
 ## What is it
 
-A rewrite of the classic game river raid, in Rust.
-Also I am [screen casting](https://youtube.com/playlist?list=PLFOYXCPEqdNXWsdP8orNI65uvmIwNxLbz&si=3YTF_XHaivJYfJfc) all of it. 
+Fork of A rewrite of the classic game river raid, in Rust. Streamed by [screen casting](https://youtube.com/playlist?list=PLFOYXCPEqdNXWsdP8orNI65uvmIwNxLbz&si=3YTF_XHaivJYfJfc). 
 
 For fun and education.
 
+Original repo was implemented by tui. This repo is for learning mainly Component architecture and very little terminal GUI by re-writting the project using ratatui framework.
 ## How to play
 
 - The player `P` tries to stay inside the river while avoiding enemies `E`.
