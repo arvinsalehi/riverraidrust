@@ -4,7 +4,7 @@
 
 ## What is it
 
-Fork of A rewrite of the classic game river raid, in Rust. Streamed by [screen casting](https://youtube.com/playlist?list=PLFOYXCPEqdNXWsdP8orNI65uvmIwNxLbz&si=3YTF_XHaivJYfJfc). 
+Fork of A rewrite of the classic game river raid, in Rust. Fun stream from an intresting individual -> [screen casting](https://youtube.com/playlist?list=PLFOYXCPEqdNXWsdP8orNI65uvmIwNxLbz&si=3YTF_XHaivJYfJfc). 
 
 For fun and education.
 
